@@ -1,0 +1,13 @@
+//
+//  BNDDownPlaceBagPrefixHeader.pch
+//  Pods
+//
+//  Created by yfs on 2020/7/16.
+//
+
+#ifndef FF_DownPlaceBagPrefixHeader_pch
+#define FF_DownPlaceBagPrefixHeader_pch
+
+#import "FF_DPBWebViewHeader.h"
+
+#endif /* FF_DownPlaceBagPrefixHeader_pch */

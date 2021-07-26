@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0491E56626AE959A00780905 /* com.bonade.h5.xqcmall.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0491E56526AE959A00780905 /* com.bonade.h5.xqcmall.zip */; };
+		0491E56726AE959A00780905 /* com.bonade.h5.xqcmall.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0491E56526AE959A00780905 /* com.bonade.h5.xqcmall.zip */; };
 		0AA405D79D5A50619C54EA85 /* Pods_FF_DownPlaceBag_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEA82CEB3181173DCD92AD5 /* Pods_FF_DownPlaceBag_Tests.framework */; };
 		2176AC262EA2FAD0F81F8223 /* Pods_FF_DownPlaceBag_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 978AE7BE0A2E0CB3421C5593 /* Pods_FF_DownPlaceBag_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0491E56526AE959A00780905 /* com.bonade.h5.xqcmall.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = com.bonade.h5.xqcmall.zip; sourceTree = "<group>"; };
 		4B951C8581879ADDB46AAEB2 /* Pods-FF_DownPlaceBag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_DownPlaceBag_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FF_DownPlaceBag_Tests/Pods-FF_DownPlaceBag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FF_DownPlaceBag_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FF_DownPlaceBag_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,13 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6D5037E237B8960795C619B3 /* FF_DownPlaceBag.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FF_DownPlaceBag.podspec; path = ../FF_DownPlaceBag.podspec; sourceTree = "<group>"; };
+		6D5037E237B8960795C619B3 /* FF_DownPlaceBag.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FF_DownPlaceBag.podspec; path = ../FF_DownPlaceBag.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FEA82CEB3181173DCD92AD5 /* Pods_FF_DownPlaceBag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FF_DownPlaceBag_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90A101339293CA65912DC20C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		90A101339293CA65912DC20C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		978AE7BE0A2E0CB3421C5593 /* Pods_FF_DownPlaceBag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FF_DownPlaceBag_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8986111A62EDB837D58B484 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8986111A62EDB837D58B484 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C81A747DF100EC5B0E916774 /* Pods-FF_DownPlaceBag_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_DownPlaceBag_Example.release.xcconfig"; path = "Target Support Files/Pods-FF_DownPlaceBag_Example/Pods-FF_DownPlaceBag_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F4E9BED4CD2D4177545B4AA9 /* Pods-FF_DownPlaceBag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_DownPlaceBag_Tests.release.xcconfig"; path = "Target Support Files/Pods-FF_DownPlaceBag_Tests/Pods-FF_DownPlaceBag_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FC8B7A8379C3638152A8CD43 /* Pods-FF_DownPlaceBag_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_DownPlaceBag_Example.debug.xcconfig"; path = "Target Support Files/Pods-FF_DownPlaceBag_Example/Pods-FF_DownPlaceBag_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,7 @@
 		6003F593195388D20070C39A /* Example for FF_DownPlaceBag */ = {
 			isa = PBXGroup;
 			children = (
+				0491E56526AE959A00780905 /* com.bonade.h5.xqcmall.zip */,
 				6003F59C195388D20070C39A /* FF_AppDelegate.h */,
 				6003F59D195388D20070C39A /* FF_AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +197,6 @@
 				4B951C8581879ADDB46AAEB2 /* Pods-FF_DownPlaceBag_Tests.debug.xcconfig */,
 				F4E9BED4CD2D4177545B4AA9 /* Pods-FF_DownPlaceBag_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "flashbody@foxmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9DUN25PW9M;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +264,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -278,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				0491E56626AE959A00780905 /* com.bonade.h5.xqcmall.zip in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -289,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				0491E56726AE959A00780905 /* com.bonade.h5.xqcmall.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,11 +333,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FF_DownPlaceBag_Example/Pods-FF_DownPlaceBag_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FF_DownPlaceBag/FF_DownPlaceBag.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FF_DownPlaceBag.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,11 +511,12 @@
 			baseConfigurationReference = FC8B7A8379C3638152A8CD43 /* Pods-FF_DownPlaceBag_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9DUN25PW9M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FF_DownPlaceBag/FF_DownPlaceBag-Prefix.pch";
 				INFOPLIST_FILE = "FF_DownPlaceBag/FF_DownPlaceBag-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "FF-DownPlaceBag-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -510,11 +528,12 @@
 			baseConfigurationReference = C81A747DF100EC5B0E916774 /* Pods-FF_DownPlaceBag_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9DUN25PW9M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FF_DownPlaceBag/FF_DownPlaceBag-Prefix.pch";
 				INFOPLIST_FILE = "FF_DownPlaceBag/FF_DownPlaceBag-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "FF-DownPlaceBag-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

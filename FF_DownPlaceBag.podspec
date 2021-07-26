@@ -25,18 +25,23 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'flashbody@foxmail.com' => '742043728@qq.com' }
-  s.source           = { :git => 'https://github.com/flashbody@foxmail.com/FF_DownPlaceBag.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/flashbody/FF_DownPlaceBag.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'FF_DownPlaceBag/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FF_DownPlaceBag' => ['FF_DownPlaceBag/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#  s.source_files = 'FF_DownPlaceBag/Classes/**/*'
+  s.ios.deployment_target = '10.0'
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+  s.static_framework = true
+  s.source_files = 'FF_DownPlaceBag/Classes/**/*{.h,.m,.pch}'
+  s.prefix_header_contents = '#import "FF_DownPlaceBagPrefixHeader.pch"'
+  s.public_header_files = "FF_DownPlaceBag/Classes/**/*.h"
+ 
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.dependency 'YTKNetwork'#,'3.0.0'
+  s.dependency 'AFNetworking'
+  s.dependency 'Masonry'
+  s.dependency 'SVProgressHUD'
+  s.dependency 'SSZipArchive'
 end
