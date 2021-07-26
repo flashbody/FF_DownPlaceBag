@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FF_DownPlaceBag_Example' do
+  pod 'FF_DownPlaceBag', :path => '../'
+
+  target 'FF_DownPlaceBag_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
