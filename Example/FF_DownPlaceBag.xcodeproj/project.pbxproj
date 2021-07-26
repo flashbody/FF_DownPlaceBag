@@ -515,6 +515,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FF_DownPlaceBag/FF_DownPlaceBag-Prefix.pch";
 				INFOPLIST_FILE = "FF_DownPlaceBag/FF_DownPlaceBag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "FF-DownPlaceBag-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,6 +533,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FF_DownPlaceBag/FF_DownPlaceBag-Prefix.pch";
 				INFOPLIST_FILE = "FF_DownPlaceBag/FF_DownPlaceBag-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "FF-DownPlaceBag-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";

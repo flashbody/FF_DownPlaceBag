@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FF_DownPlaceBag'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of FF_DownPlaceBag.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   s.static_framework = true
   s.source_files = 'FF_DownPlaceBag/Classes/**/*{.h,.m,.pch}'
   s.prefix_header_contents = '#import "FF_DownPlaceBagPrefixHeader.pch"'
-  s.public_header_files = "FF_DownPlaceBag/Classes/**/*.h"
+#  s.public_header_files = "FF_DownPlaceBag/Classes/**/*.h"
  
   s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'YTKNetwork'#,'3.0.0'
